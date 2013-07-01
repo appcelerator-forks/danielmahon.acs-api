@@ -21,7 +21,7 @@ Setting Up The Library
 Before using ACS cloud services, you need to import the 'acs' library into your app:
 
 ```javascript
-var ACS = require('acs').ACS;
+var ACS = require('acs-api');
 ```
 
 This module has been setup in the node environment for you by Node.ACS already, you don't need to worry about the module's lookup path.
@@ -38,7 +38,7 @@ This only needs to be done once, and is typically done in the main app.js script
 
 Now let's use ACS in a Node.ACS application, we'll query all available places in the ACS app and return through response:
 
-	var ACS = require('acs').ACS;
+	var ACS = require('acs-api');
 	ACS.init('<OAuth key>', '<OAuth secret>');
 	
 	function queryAllPlaces(req, res) {
