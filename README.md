@@ -12,19 +12,11 @@ $ npm install acs-api
 
 ## Usage
 
-Setting Up The Library
-
-1. Import 'acs' Module
-
-2. Initialize ACS OAuth Credentials
-
-Before using ACS cloud services, you need to import the 'acs' library into your app:
+Require the 'acs' library in your app:
 
 ```javascript
 var ACS = require('acs-api');
 ```
-
-This module has been setup in the node environment for you by Node.ACS already, you don't need to worry about the module's lookup path.
 
 Initialize the 'acs' module with your ACS OAuth credentials.
 
